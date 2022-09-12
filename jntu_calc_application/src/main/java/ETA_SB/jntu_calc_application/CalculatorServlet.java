@@ -23,6 +23,7 @@ public class CalculatorServlet extends HttpServlet {
     		throws IOException, ServletException 
     	{
     		doPost(request, response);
+    		System.out.println("Hai");
     	}
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
